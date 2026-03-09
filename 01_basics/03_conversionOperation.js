@@ -39,4 +39,31 @@ let stringNumber = String(someNumber) //string
 console.log(stringNumber); //33
 console.log(typeof stringNumber); //type = string
 
+/**************Operations************* */
+console.log("\n");
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);//2^2
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " prem"
+let str3 = str1 + str2 //concatination
+
+console.log(str3); //hello prem
+
+//Important (Tricky Conversions)
+console.log("1" + 2) //12
+console.log(1 + "2") //12
+console.log("1" + 2 + 2) //122
+console.log(1 + 2 + "2") //32
+
+console.log(+true) //1
+
+let gameCounter = 100
+gameCounter++; //postfix: 101
+++gameCounter; //prefix: 102
+console.log(gameCounter);//102
 
